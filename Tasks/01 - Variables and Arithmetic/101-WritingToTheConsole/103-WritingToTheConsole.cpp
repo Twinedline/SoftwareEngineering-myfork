@@ -9,7 +9,7 @@ int main()
     // ************************ Using printf ******************************* 
     printf("Hello Everyone. We are using C\nHow are things?\n");
     // TASK (a) - remove \n from the string above - what does this change? 
-    printf("Hello Everyone. We are using C\nHow are things?"); //The removal of the \n gets rid of the line break which causes the next line "my age is 23" to be on the same line 
+    printf("Hello Everyone. We are using C How are things?\n"); //The removal of the \n gets rid of the line break which causes the next line "my age is 23" to be on the same line 
     // ******************* Using printf placeholders *********************** 
     int age = 23;
     printf("My age is %d\n", age);
